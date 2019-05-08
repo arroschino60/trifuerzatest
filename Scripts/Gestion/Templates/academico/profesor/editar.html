@@ -1,0 +1,46 @@
+{% extends 'base/base.html' %}
+{% load staticfiles %}
+
+{% block links %}
+    <link rel="stylesheet" href="{% static 'css/trifuerza.css' %}">
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script-->
+{% endblock %}
+
+{% block modal %}
+    <form method="post">
+        {% csrf_token %}
+        <h3  style="color:#1b396b;">Modificar Datos Del Profesor:
+            <span style="color:#ca2925;">
+                <h3>{{ profesores.nombre }}  {{ profesores.ap_Pat}} {{ profesores.ap_Mat }}</h3></span>
+        </h3>
+        <div class="form-group">
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-success">Guardar</button>
+            <button onclick="cerrarModalProfesores()" class="btn btn-danger mydanger">Regresar</button>
+        </div>
+    </form>
+    <!--body onload="mostrarModal()">
+    {% block Container %}
+        <div id="modal-wrapper" class="modal myform-bottom">
+                <form style="background: #E6E6E6;" method="POST" class="modal-content" id="AtributoForm">
+                    {% csrf_token %}
+                    <h1  style="color:#1AAE88;">Modificar Atributo</h1>
+                    <div class="modal-body">
+                        <br>
+                         {{ form.as_p }}
+                    </div>
+                    <span onclick="cerrarModalProfesores()" class="close" title="Close Modal">&times;</span>
+
+                    <div class="form-group">
+                        <button type="submit" class="addbtn">Editar</button>
+                    </div>
+                </form>
+            </div>
+    {% endblock %}
+    </body-->
+{% endblock %}
+
+{% block js %}
+{% endblock %}
