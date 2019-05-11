@@ -1,0 +1,57 @@
+{% extends 'base/base.html' %}
+{% load staticfiles %}
+
+{% block links %}
+<link rel="stylesheet" href="{% static 'css/trifuerza.css' %}">
+{% endblock %}
+
+{% block modal %}
+    <div class="row">
+                      <!-- Misión -->
+                      <div class="panel-group ficha-collapse col-md-6 col-lg-3">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <img src="{% static 'Images\atributos.png' %}"  width="50%" height="50%">
+                              <br>
+                              <h4 class="panel-title"><a>ATRIBUTOS</a></h4>
+                            <h4 class="panel-title"></h4>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Visión -->
+                      <div class="panel-group ficha-collapse col-md-6 col-lg-3">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <img src="{% static 'Images\materias2.png' %}" width="70%" height="70%">
+                              <br>
+                              <h4 class="panel-title"><a>CARRERAS Y ESPECIALIDADES</a></h4>
+                            <h4 class="panel-title"></h4>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Objetivos -->
+                      <div class="panel-group ficha-collapse col-md-6 col-lg-3">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <img src="{% static 'Images\alumnos2.png' %}"  width="70%" height="70%">
+                              <br><br>
+                              <h4 class="panel-title"><a>ALUMNOS</a></h4>
+                            <h4 class="panel-title"></h4>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Perfil de Egreso-->
+                      <div class="panel-group ficha-collapse col-md-6 col-lg-3">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <img src="{% static 'Images\profesores.png' %}"  width="50%" height="50%">
+                              <br>
+                              <h4 class="panel-title"><a>PROFESORES</a></h4>
+                            <h4 class="panel-title"></h4>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+{% endblock %}
+{%block js%}
+{%endblock%}

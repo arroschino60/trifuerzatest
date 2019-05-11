@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #2193b0, #6dd5ed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ /
+}*/
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header{
+    background-color: rgb(70, 70, 70);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 48px;
+}
+
+
+.cardComp{
+    width: 420px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    min-height: 300px;
+}
+
+.cardManagerHead{
+    display: grid;
+    background-color: #464646;
+    height: 40px;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 200;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.cardManagerBody{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    justify-content: center;
+}
+
+svg{
+    background-color:transparent;
+    fill: #6D6D6D;
+}
+
+.ReticulaEl{
+    margin: 10px;
+    background-color: white;
+    width: 80px;
+    height: 90px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: 10ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.ReticulaEl:hover{
+    cursor: pointer;
+}
+
+.MatriculaElMask{
+    width: 100%;
+    height: 100%;
+    clip-path: inset(0px 0px);
+}
+
+.ReticulaEl-Active{
+    width: 100%;
+    height: 0px;
+    background-color: #DD5050;
+    transition: 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    transform: translateY(-110px);
+}
+
+.ReticulaEl-Active-Delete{
+    width: 100%;
+    height: 20px;
+    background-color: transparent;
+}
+
+.ReticulaEl-Active-DeleteBtn{
+    fill: white;
+    padding-top: 2px;
+    margin-left: 60px;
+}
+
+.ReticulaEl-Active-Label{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    user-select: none;
+    color: white;
+    transform: translateY(-8px);
+}
+
+.ReticulaEl-Active-EditBtn{
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ReticulaEl-Head{
+    background-color: #6D6D6D;
+    width: 100%;
+    height: 20px;
+    transition: 500ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.ReticulaEl-Label{
+    width: 100%;
+    height: 70px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    color: #6D6D6D;
+    background-color: white;
+}
+
+/* -------------- Especialidad ---------------------- */
+
+.especialEl{
+    margin: 10px;
+    background-color: white;
+    width: 80px;
+    height: 70px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: 10ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.especialEl-Head{
+    background-color: #6D6D6D;
+    width: 100%;
+    height: 20px;
+    transition: 500ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.especialEl-Label{
+    width: 100%;
+    height: 50px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    color: #6D6D6D;
+    background-color: white;
+    transition: 500ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    background-color: transparent;
+}
+.modal {
+    display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 4% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%;
+    padding-bottom: 30px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: red;
+    cursor: pointer;
+}
+.animate {
+    animation: zoom 0.6s
+}
+button.addbtn {
+    height: 30px;
+    background: #1AAE88;
+    border: 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 4px;
+    color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+
+}
+button.addbtn:hover, button.addbtn:active {
+    opacity: 0.6;
+    color: #fff;
+}
+button.addbtn:focus {
+    opacity: 0.6;
+    color: #fff;
+    background: #de615e;
+}
+.myform-top-left {
+    float: left;
+    width: 75%;
+    padding-top: 25px;
+    text-align: left;
+}
+.myform-top-left p {
+    opacity: 0.8;
+}
+.myform-top-right {
+    float: right;
+    width: 25%;
+    padding-top: 25px;
+    font-size: 66px;
+    text-align: right;
+    opacity: 0.3;
+}
+.myform-bottom {
+    padding: 25px 25px 30px 25px;
+    background: rgba(0, 0, 0, 0.3);
+    -moz-border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+.myform-bottom .addbtn {
+    width: 25%;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea.form-control {
+    height: 30px;
+    width: 350px;
+    vertical-align: middle;
+    background: #fff;
+    border: 3px solid #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+
+}
+
+.input[type="text"],
+.input[type="email"],
+.input[type="password"],{
+    height: 30px;
+    vertical-align: middle;
+    color : black;
+    border: 2px solid #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+{
+    background: #fff;
+    border: 2px solid #1AAE88;
+}

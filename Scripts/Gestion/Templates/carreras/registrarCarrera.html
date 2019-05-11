@@ -1,0 +1,62 @@
+{% extends 'base/base.html' %}
+{% load staticfiles %}
+
+{% block links %}
+    <link rel="stylesheet" href="{% static 'css/trifuerza.css' %}">
+{% endblock %}
+
+{% block modal %}
+    <body onload="mostrarModal()">
+    {% block Container %}
+    {% block divCarreras %}
+        <div class="cardComp">
+            <div class="cardManagerHead">Carreras</div>
+            <div class="cardManagerBody" id="carrerasComp"></div>
+            <div>
+                <img class="addbutton" width="50px" height="50px" src="{% static 'Images/add.png' %}">
+            </div>
+            <div id="modal-wrapper" class="modal myform-bottom">
+                <form style="background: #E6E6E6;" method="POST" class="modal-content" id="CarreraForm">
+                    {% csrf_token %}
+                    <h1  style="color:#1AAE88;">Registrar Carrera</h1>
+                    <div class="modal-body">
+                        <br>
+                        <div class="form-group">
+                          <input type="text" placeholder="Nombre de la Carrera" name="carrera" id="CarreraModal" class="input">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" placeholder="Clave de la Carrera" name="clave" id="ClaveModal" class="input">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                           <input type="text" value="#0088cc" name="color" id="ColorModal"/>
+                        </div>
+                         <!-- {{ form.as_p }} -->
+                    </div>
+                    <span onclick="cerrarModal()" class="close" title="Close Modal">&times;</span>
+
+                    <div class="form-group">
+                        <button type="submit" class="addbtn">Agregar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    {% endblock %}
+
+    {% block divEspecialidades %}
+        <div class="cardComp">
+            <div class="cardManagerHead">Especialidades</div>
+            <div class="cardManagerBody" id="especialidadesComp"></div>
+            <img class="addbutton" width="50px" height="50px" src="{% static 'Images/add.png' %}">
+        </div>
+    {% endblock %}
+{% endblock %}
+    </body>
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'js/jquery.minicolors.js' %}"></script>
+    <link href="{% static 'css/jquery.minicolors.css' %}" rel="stylesheet" type="text/css" />
+    <script>$('#ColorModal').minicolors({ animationEasing: 'swing'});</script>
+{% endblock %}
