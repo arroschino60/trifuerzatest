@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="165ce397-8959-4393-adbf-917827115785" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Scripts/Gestion/Gestion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Gestion/Gestion/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="165ce397-8959-4393-adbf-917827115785" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,12 +9,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scripts/Gestion/Gestion/settings.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/Gestion/apps/atributos/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+            <state relative-caret-position="136">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="42" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="42" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="20" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scripts/Gestion/apps/inicio/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/Gestion/apps/inicio/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/Gestion/apps/carreras/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -43,9 +77,6 @@
       <find>bod</find>
       <find>atributos</find>
     </findStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,18 +118,17 @@
         <option value="$PROJECT_DIR$/Scripts/Gestion/apps/atributos/models.py" />
         <option value="$PROJECT_DIR$/Scripts/Gestion/Templates/inicio/index.html" />
         <option value="$PROJECT_DIR$/Scripts/Gestion/Gestion/urls.py" />
+        <option value="$PROJECT_DIR$/Scripts/Gestion/Gestion/settings.py" />
         <option value="$PROJECT_DIR$/Scripts/Gestion/apps/atributos/views.py" />
         <option value="$PROJECT_DIR$/Scripts/Gestion/apps/inicio/urls.py" />
         <option value="$PROJECT_DIR$/Scripts/Gestion/apps/inicio/views.py" />
-        <option value="$PROJECT_DIR$/Scripts/Gestion/Gestion/settings.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="709" />
-    <option name="y" value="21" />
-    <option name="width" value="899" />
-    <option name="height" value="775" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -110,26 +140,50 @@
         <subPane>
           <expand>
             <path>
-              <item name="trifuerzatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trifuerzatest" type="462c0819:PsiDirectoryNode" />
+              <item name="itm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="trifuerzatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trifuerzatest" type="462c0819:PsiDirectoryNode" />
+              <item name="itm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itm" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="trifuerzatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trifuerzatest" type="462c0819:PsiDirectoryNode" />
+              <item name="itm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itm" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
               <item name="Gestion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="trifuerzatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trifuerzatest" type="462c0819:PsiDirectoryNode" />
+              <item name="itm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itm" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
               <item name="Gestion" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itm" type="462c0819:PsiDirectoryNode" />
+              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
               <item name="Gestion" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="atributos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itm" type="462c0819:PsiDirectoryNode" />
+              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Gestion" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="carreras" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itm" type="462c0819:PsiDirectoryNode" />
+              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Gestion" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="inicio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -139,7 +193,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../itm/Scripts/Gestion/Gestion/settings.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -195,10 +249,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="709" y="21" width="899" height="775" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4620462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18898809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -212,8 +265,6 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -270,7 +321,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Login_v1/Login_v1/index.html" />
+    <entry file="file://$USER_HOME$/Downloads/Login_v1/Login_v1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="97" column="38" lean-forward="true" selection-start-line="82" selection-end-line="97" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/Gestion/Templates/carreras/eliminarEspecialidad.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
@@ -299,8 +356,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Trifuerza/SISEEG/SISEEG/plantilla.html" />
-    <entry file="file://$PROJECT_DIR$/../../../../Documentos/Respaldo/Escritorio/8vo Semestre/P Web/Caro/index.html" />
+    <entry file="file://$PROJECT_DIR$/../../Trifuerza/SISEEG/SISEEG/plantilla.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="59" selection-end-column="14" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Documentos/Respaldo/Escritorio/8vo Semestre/P Web/Caro/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/Gestion/Templates/carreras/registrarEspecialidad.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -481,6 +556,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Gestion/Gestion/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/Gestion/apps/carreras/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -525,27 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../sievat/Scripts/SIEVAT/SIEVAT/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="76" column="2" lean-forward="true" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../itm/Scripts/Gestion/Gestion/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="80" column="2" lean-forward="true" selection-start-line="80" selection-end-line="85" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Gestion/Gestion/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
     </entry>
