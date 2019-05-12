@@ -80,12 +80,12 @@ WSGI_APPLICATION = 'Gestion.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'SIEVAT',
-        'USER': 'postgres',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': 5433,
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'sievat.db',
+        'USER': 'sony',
+        'PASSWORD': 'trifuerza',
+        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'PORT': '8000',
     }
 }
 
