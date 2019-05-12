@@ -81,11 +81,7 @@ WSGI_APPLICATION = 'Gestion.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'sievat.db',
-        'USER': 'sony',
-        'PASSWORD': 'trifuerza',
-        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
-        'PORT': '8000',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
