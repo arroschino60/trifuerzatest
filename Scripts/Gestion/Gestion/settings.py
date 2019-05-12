@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'apps.carreras',
     'apps.atributos',
     'apps.inicio',
+    'whitenoise.runserver_nostatic',
+    'django.contrib.staticfiles',
 ]
 
 MIDDLEWARE = [
